@@ -1,0 +1,83 @@
+.page{
+
+    background-color:#d5ecdc;
+    text-align:center;
+    width:450px; 
+    height: 70px; 
+    color:rgb(233, 41, 41);
+    padding: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    
+   
+}  
+.page1{
+
+    background-color:#d5ecdc;
+    text-align:center;
+    width:350px; 
+    height: 70px; 
+    color:rgb(233, 41, 41);
+    padding: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    
+    
+   
+}  
+#compte{
+
+    text-align: center;
+    color: rgba(12, 8, 219, 0.925);
+}
+
+
+.input{
+    
+    margin: 4px 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+}
+#pass{
+
+    display: flex;
+    
+   
+    
+}
+
+#eye{
+    height: 20px ;
+    position: absolute;
+    right:40px;
+}
+
+    .input1{
+    
+        margin: 4px 0;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+    
+    }
+    #passe{
+    
+        display: flex;
+        
+       
+        
+    }
+    
+    #eye1{
+        height: 20px ;
+        position: absolute;
+        right:40px;
+      
+    
+} 

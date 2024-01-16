@@ -1,0 +1,30 @@
+RewriteEngine On
+
+RewriteRule ^accueil$ accueil.php
+
+RewriteRule ^connexion$ connexion.php
+
+RewriteRule ^compte$ compte.php
+
+RewriteRule ^ajouter$ ajout.php
+
+RewriteRule ^deconnexion$ deconnexion.php
+RewriteRule ^index$ index.php
+
+
+RewriteRule ^good/([A-Za-z0-9-]+)/?$ good.php?ref=$1 [L,QSA]
+
+RewriteRule ^menu-details/([A-Za-z0-9-]+)/?$ menu-details.php?id_article=$1 [L,QSA]
+
+RewriteRule ^faq$ faq.html
+
+RewriteRule ^service$ service.html
+
+RewriteRule ^details$ service-details.html
+
+RewriteRule ^404$ 404.php
+
+ErrorDocument 404  http://localhost/formation/404
+
+#ErrorDocument 404  https://giselpay.com/404.php
+
